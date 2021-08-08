@@ -1,4 +1,4 @@
-# target
+# SurveyCup
 
 ## Build Setup
 

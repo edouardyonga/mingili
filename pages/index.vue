@@ -7,19 +7,35 @@
         </v-card>
         <v-card>
           <v-card-title class="headline">
-            Welcome to the survey made easy for all
+           <center class="text-center"> Welcome to the survey made easy for all</center>
           </v-card-title>
           <v-card-text>
-            <p>
+            <p class="">
               SurveyCup is a web platform that collect data from specified set
               of peoples trough his targeted questions.
+            </p>
+            <p class="text-justify">
+              Whether you’re doing medical research in a university, hospital,
+              or small clinic, surveys can be critical to understanding the
+              population you serve. Using surveys makes it easy to collect and
+              analyze data for anything from basic research to clinical trials
+              to epidemiological studies. Here are is the best practice
+              to help medical researchers and healthcare workers use online
+              healthcare surveys effectively.
             </p>
           </v-card-text>
           <v-card-actions>
             <v-spacer />
-            <v-btn class="" xl color="primary" nuxt to="/inspire"> Start </v-btn>
+            <v-btn
+              class="mb-2 px-5"
+              x-large
+              color="primary"
+              nuxt
+              to="/questions/"
+            >
+              Take a survey
+            </v-btn>
             <v-spacer />
-
           </v-card-actions>
         </v-card>
       </v-col>
